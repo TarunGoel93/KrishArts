@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Portfolio - Home</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Krish Arts</a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link active">Home</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="about.html" class="nav-link">About</a>
+            </nav>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="gallery.html" class="mobile-link">Gallery</a>
+        <a href="about.html" class="mobile-link">About</a>
+    </div>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-background">
+                <img src="https://tse2.mm.bing.net/th?id=OIP.Jmx9Gllax2OGL0krNNJlXAHaEK&pid=Api&P=0&h=180" alt="Featured artwork" class="hero-image">
+                <div class="hero-overlay"></div>
+            </div>
+            
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">My Artistic Journey</h1>
+                <p class="hero-subtitle fade-in delay-300">
+                    Explore a collection of original artwork that captures moments of beauty, emotion, and imagination.
+                </p>
+                <a href="gallery.html" class="hero-button fade-in delay-600">
+                    View Gallery
+                    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M5 12h14M12 5l7 7-7 7"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+
+        <!-- Featured Works -->
+        <section class="featured-works">
+            <div class="container">
+                <h2 class="section-title">Featured Works</h2>
+                
+                <div class="featured-grid">
+                    <div class="featured-item">
+                        <div class="featured-image">
+                            <img src="k1.jpeg" alt="Featured artwork 1">
+                        </div>
+                        <div class="featured-overlay">
+                            <h3>Ethereal Dreams</h3>
+                            <p>Oil on canvas, 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-item">
+                        <div class="featured-image">
+                            <img src="k2.jpeg" alt="Featured artwork 2">
+                        </div>
+                        <div class="featured-overlay">
+                            <h3>Urban Reflections</h3>
+                            <p>Mixed media, 2023</p>
+                        </div>
+                    </div>
+                    
+                    <div class="featured-item">
+                        <div class="featured-image">
+                            <img src="k3.jpeg" alt="Featured artwork 3">
+                        </div>
+                        <div class="featured-overlay">
+                            <h3>Nature's Symphony</h3>
+                            <p>Watercolor, 2023</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="featured-cta">
+                    <a href="gallery.html" class="btn-outline">
+                        Explore All Works
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <path d="M5 12h14M12 5l7 7-7 7"/>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Artist Statement -->
+        <section class="artist-statement">
+            <div class="container">
+                <h2 class="section-title">Artist Statement</h2>
+                <div class="statement-content">
+                    <p>
+                        My work explores the intersection between digital and traditional media, focusing on themes of nature, human
+                        connection, and the subconscious mind. Through a combination of vibrant colors and intricate details, I aim
+                        to create pieces that invite viewers to pause and reflect on their own experiences.
+                    </p>
+                    <p>
+                        Each artwork represents a moment of contemplation, a visual diary entry that captures emotions and thoughts
+                        that words alone cannot express. I invite you to explore this collection and find pieces that resonate with
+                        your own journey.
+                    </p>
+                    
+                    <div class="statement-cta">
+                        <a href="about.html" class="btn-outline">
+                            Learn More About Me
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M5 12h14M12 5l7 7-7 7"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 202 Krish Arts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

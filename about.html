@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Art Portfolio - About</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="nav-logo">Krish Arts</a>
+            
+            <nav class="nav-menu">
+                <a href="index.html" class="nav-link">Home</a>
+                <a href="gallery.html" class="nav-link">Gallery</a>
+                <a href="about.html" class="nav-link active">About</a>
+            </nav>
+            
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Mobile Menu -->
+    <div class="mobile-menu">
+        <a href="index.html" class="mobile-link">Home</a>
+        <a href="gallery.html" class="mobile-link">Gallery</a>
+        <a href="about.html" class="mobile-link">About</a>
+    </div>
+
+    <main class="about-main">
+        <div class="container">
+            <h1 class="page-title">About the Artist</h1>
+            
+            <!-- Artist Bio -->
+            <section class="artist-bio">
+                <div class="bio-image">
+                    <img src="k7.jpeg" alt="Artist portrait">
+                </div>
+                
+                <div class="bio-content">
+                    <h2>My Story</h2>
+                    <div class="bio-text">
+                        <p>
+                            I am a contemporary artist based in Jhajjar, specializing in mixed media and digital art. My artistic
+                            journey began over 15 years ago when I discovered my passion for visual expression through painting.
+                        </p>
+                        <p>
+                            My work has been featured in galleries across the country and has received recognition for its unique blend of traditional and digital techniques. I draw inspiration from urban landscapes and human emotions, which is reflected in my use of bold colors and dynamic compositions throughout my portfolio. In addition to contemporary themes, I have also painted numerous religious artworks, especially focused on deities like Hanuman and Khatu Shyam.
+                        </p>
+                        <p>
+                           I believe that art should challenge perspectives and evoke emotion, and I strive to create pieces that resonate with viewers on a personal level. Each artwork represents a chapter in my ongoing exploration of the human experience and our connection to the world around us.
+                        </p>
+                        <p>
+                            When I'm not in the studio, I enjoy traveling and photographing street art around the world. These
+                            experiences often find their way into my work, enriching the narratives and visual language I develop.
+                        </p>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/_krisharts/" class="social-link" aria-label="Instagram">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+                            </svg>
+                        </a>
+                        <a href="https://youtube.com/@krish_arts?si=UzEq94v56sY0ajnP" class="social-link" aria-label="YouTube">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+        <path d="M19.615 3.184A2.997 2.997 0 0 0 17.697 3H6.303a2.997 2.997 0 0 0-1.918.184A3.005 3.005 0 0 0 2.184 5.303C2 6.222 2 8.084 2 10.001v3.998c0 1.917 0 3.779.184 4.698a3.005 3.005 0 0 0 1.918 2.119A2.997 2.997 0 0 0 6.303 21h11.394a2.997 2.997 0 0 0 1.918-.184 3.005 3.005 0 0 0 1.918-2.119c.184-.919.184-2.781.184-4.698V10c0-1.917 0-3.779-.184-4.697a3.005 3.005 0 0 0-1.918-2.119zM10 15.5v-7l6 3.5-6 3.5z"/>
+    </svg>
+</a>
+
+                        <a href="mailto:krishmittal930@gmail.com" class="social-link" aria-label="Email">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                                <polyline points="22,6 12,13 2,6"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+            <!-- Contact Form -->
+            <section class="contact-section">
+                <h2 class="section-title">Get in Touch</h2>
+                
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="subject" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required></textarea>
+                    </div>
+                    
+                    <div class="form-submit">
+                        <button type="submit" class="btn-primary">Send Message</button>
+                    </div>
+                </form>
+            </section>
+            
+            <!-- CV Section -->
+            <section class="cv-section">
+                <h2 class="section-title">Exhibitions & Education</h2>
+                
+                <div class="cv-content">
+                    <div class="cv-category">
+                        <h3>Exhibitions</h3>
+                        <ul class="cv-list">
+                            <li class="cv-item">
+                                <div class="cv-year">2023</div>
+                                <div class="cv-details">
+                                    <div class="cv-title">"Contemporary Visions" - Modern Art Gallery, Greater Noida</div>
+                                    <div class="cv-type">Group Exhibition</div>
+                                </div>
+                            </li>
+                            <li class="cv-item">
+                                <div class="cv-year">2022</div>
+                                <div class="cv-details">
+                                    <div class="cv-title">"Digital Dreams" - Tech Art Space, Jhajjar</div>
+                                    <div class="cv-type">Solo Exhibition</div>
+                                </div>
+                            </li>
+                            <li class="cv-item">
+                                <div class="cv-year">2021</div>
+                                <div class="cv-details">
+                                    <div class="cv-title">"Emerging Artists" - City Gallery, New Delhi</div>
+                                    <div class="cv-type">Group Exhibition</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="cv-category">
+                        <h3>Education</h3>
+                        <ul class="cv-list">
+                            <li class="cv-item">
+                                <div class="cv-year">2023-2024</div>
+                                <div class="cv-details">
+                                    <div class="cv-title">Gyan Jyoti Sr. Sec. School</div>
+                                    <div class="cv-type">Secondary Education</div>
+                                </div>
+                            </li>
+                            <li class="cv-item">
+                                <div class="cv-year">2025-2026</div>
+                                <div class="cv-details">
+                                    <div class="cv-title">Gyan Jyoti Sr. Sec. School</div>
+                                    <div class="cv-type">Senior Secondary Education</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Krish Arts. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
