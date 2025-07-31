@@ -1,5 +1,5 @@
 # Krish Arts
-
+[![Ask DeepWiki](https://devin.ai/assets/askdeepwiki.png)](https://deepwiki.com/TarunGoel93/KrishArts)
 
 Krish Arts is a clean, modern, and fully responsive art portfolio website. It is designed to showcase a diverse collection of works by a contemporary artist, featuring a home page, an interactive gallery, and an about page with a contact form.
 
